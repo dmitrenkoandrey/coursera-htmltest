@@ -25,11 +25,13 @@ h2, h3 {
   font-family: 'Arial', sans-serif;
   font-size: 1.4em;
   font-weight: bold;
+  color: #000;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
   position: absolute;
   left: 30px;
+
 }
 .jumbotron p{
 	font-size: 16px;
@@ -38,12 +40,19 @@ h2, h3 {
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
-/** END HEADER **/
 
+/** END HEADER **/
+#nav-list a {
+font-weight: bold;
+color: #000;
+text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list .nav-divider {
+  background-color: #000;
+}
 /* HOME PAGE */
 .container .jumbotron {
   border-radius: 0;
